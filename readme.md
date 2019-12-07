@@ -1,5 +1,18 @@
-# Creating a Write back Cache
+# Jackie Doan
+Code is compiled with "MAKE" and "MAKE ALL"
 
+The input file for the current directory is in.dat but can be changed
+ if necessary
+
+Code is run with "MAKE RUN", "java CacheSimulator in.dat",
+ or "java CacheSimulator < in.dat"
+
+The Code is in Java. The code is split up into 3 files one file to have
+the variables for the hits and access, one file as a viewer, and one file
+as the cache and its processes.
+
+
+# Creating a Write back Cache
 1. You should take an input file specifying cache configuration (Number of sets, associativity, line size), and then a list of Reads/Writes and addresses. 
 Values don't matter for writes. 
 
